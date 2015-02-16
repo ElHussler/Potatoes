@@ -1,0 +1,20 @@
+REPORT
+MAX 6 PAGES
+
+TASK 1:
+Describe my work on the task
+ - Evaluate performance of each method investigated (e.g. )
+   Method 1: 
+   Method 2: Regionprops
+   Method 3: 
+
+TASK 2:
+Describe my work on the task
+ - Evaluate each method investigated (e.g. k-means, manual mean & standard deviation, thresholding through trial & error)
+   Method a: Background subtraction
+   Method 1: HSV colour space
+   Method 2: Image filtering (blur)
+   Method 3: Contrast stretching
+   Method 4: K-means clustering
+   Method 5: Image Colour Slicing
+   Method 6: Morphological processing (erode, dilate, median filter, fill, custom removeSmallComps)

@@ -1,0 +1,10 @@
+findspuds('1.png');
+findspuds('2.png');
+findspuds('3.png');
+findspuds('4.png');
+findspuds('5.png');
+findspuds('6.png');
+findspuds('7.png');
+findspuds('8.png');
+findspuds('9.png');
+findspuds('10.png');

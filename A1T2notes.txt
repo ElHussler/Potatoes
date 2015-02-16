@@ -1,0 +1,21 @@
+Write MATLAB program to segment potatoes from background
+1) Learn adaptive model for background from 6 images
+
+input = imread('1.png');
+output = zeroes(input);
+
+for i = 1 : pixWidth
+	for j = 1 : pixHeight
+		if input(i, j) = {POTATO}
+			output(i, j) = input(i, j)
+		else
+			output(i, j) = 0;
+		end
+	end
+end
+
+For each pixel in source image, compare pixel colour values with the learned
+background model.
+If the pixel is classified as “potato”, then the corresponding pixel in the output image should be set to the same colour as the input pixel, otherwise set the output pixel to “black”. Return the output image
+
+Add comments that explain all main steps in your reasoning

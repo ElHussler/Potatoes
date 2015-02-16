@@ -1,0 +1,33 @@
+Write MATLAB program to detect potatoes in provided images
+Result:	Original image with potatoes surrounded by green Minimum Enclosing Rectangle (MER)
+	Display stats in Command Window (Gonzalez and Woods’ "Representation and Description"):
+	1) Number of potatoes detected;
+	2) Per potato, in a table (one row per potato):
+	 a) (x,y) location of the centroid of the potato;
+	 b) the eccentricity of the potato;
+	 c) the mean and standard deviation of the R, G and B colour values in the potato.
+	 d) the smoothness value of the potato;
+	 e) the average entropy of the potato.
+Add comments that explain all main steps in your reasoning
+
+ADVANCED MANUAL FUNCTIONS:
+- Proper MER
+- IMOPEN
+- IMFILL
+- IM2BW & THRESHOLDING
+- RGB2GRAY
+- ENTROPY
+- ECCENTRICITY
+
+Potato counts:
+
+1: 	11
+2: 	9
+3: 	8
+4: 	8
+5: 	8
+6: 	7
+7: 	7
+8:	7
+9:	7
+10:	7
